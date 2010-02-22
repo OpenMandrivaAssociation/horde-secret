@@ -5,7 +5,7 @@
 
 Name:          horde-secret
 Version:       0.0.2
-Release:       %mkrel 1
+Release:       %mkrel 12
 Summary:       Secret Encryption API
 License:       LGPL
 Group:         Networking/Mail
@@ -18,7 +18,6 @@ Requires:      horde-cipher
 Requires:      horde-util
 Requires:      php-mcrypt
 Requires:      php-pear-channel-horde
-BuildRequires: horde-framework
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
 BuildRoot:     %{_tmppath}/%{name}-%{version}

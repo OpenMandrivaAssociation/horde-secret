@@ -5,19 +5,20 @@
 
 Name:          horde-secret
 Version:       0.0.2
-Release:       %mkrel 12
+Release:       %mkrel 13
 Summary:       Secret Encryption API
 License:       LGPL
 Group:         Networking/Mail
 Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
-Requires(pre): %{_bindir}/pear5
+Requires(pre): %{_bindir}/pear
 Requires:      horde-framework
 Requires:      horde-cipher
 Requires:      horde-util
 Requires:      php-mcrypt
 Requires:      php-pear-channel-horde
+Requires:      php-pear
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
 BuildRoot:     %{_tmppath}/%{name}-%{version}

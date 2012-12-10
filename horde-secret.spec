@@ -57,3 +57,26 @@ fi
 %defattr(-, root, root)
 %{xmldir}/%{prj}.xml
 %{peardir}/Horde/Secret.php
+
+
+%changelog
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-15mdv2011.0
++ Revision: 564081
+- Increased release for rebuild
+
+* Wed Mar 17 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-14mdv2010.1
++ Revision: 523034
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased release version
+
+* Sat Mar 06 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-13mdv2010.1
++ Revision: 514882
+- replaced requires php-pear5 with php-pear
+
+* Mon Feb 22 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-12mdv2010.1
++ Revision: 509366
+- removed Buildrequires: horder-framework
+- replace PreReq with Requires(pre)
+- Initial import
+
+
